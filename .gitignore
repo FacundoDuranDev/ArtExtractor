@@ -45,3 +45,17 @@ Thumbs.db
 # Variables de entorno
 .env
 .env.local
+
+# Carpetas de imágenes descargadas
+imagenes_obras/
+imagenes_obras_*/
+imagenes_obras_test/
+imagenes_obras_test2/
+
+# Registros de extracción (contienen datos de las descargas)
+*.extraction_registry.json
+
+# Archivos de imagen (opcional - si quieres ignorar todos los .jpg)
+# *.jpg
+# *.png
+# *.jpeg
